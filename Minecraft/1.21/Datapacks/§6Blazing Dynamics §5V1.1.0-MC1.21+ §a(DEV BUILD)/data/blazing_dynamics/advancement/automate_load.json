@@ -1,0 +1,18 @@
+{
+  "__comment__": "this advancement will run if the player is in overworld then his function will run automate_load.",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "blazing_dynamics:_global/load/bd_load"
+  }
+}
